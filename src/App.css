@@ -12,9 +12,17 @@
   background-color:grey;
   color:black;
 }
-.Product-item img{
-  width:80%;
+.product-item{
+  margin-top:10px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+}
+.product-item img{
+  width:50%;
 }
 .para{
+  margin-left:10px;
+}
+.inputfield{
   margin-left:10px;
 }

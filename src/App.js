@@ -15,9 +15,9 @@ import Products from './Products'
  class App extends React.Component{
   state={
     products:[
-      {id:1,name:"redmi",price:12343,pic:"https://bl-i.thgim.com/public/incoming/va46t7/article66279654.ece/alternates/FREE_1200/2022-12-18T190939Z_836193254_UP1EICI1H82HM_RTRMADP_3_SOCCER-WORLDCUP-ARG-FRA-REPORT.JPG"},
-      {id:2,name:"realme",price:23456,pic:"https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_289,w_463/gastbpvfoq5yzy9deqsx"},
-      {id:3,name:"Iphone",price:140000,pic:"https://backend.keepup.com.au/wp-content/uploads/2022/12/20221219001743912679.jpg?w=550&quality=80&strip=all"}
+      {id:1,name:"iphone",price:150000,pic:"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14pro-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1663611329204"},
+      {id:2,name:"Samsung",price:118000,pic:"https://m.media-amazon.com/images/I/71PvHfU+pwL._SX679_.jpg"},
+      {id:3,name:"Google Pixel",price:38000,pic:"https://m.media-amazon.com/images/I/81-fNmQqlLL._SL1500_.jpg"}
       ]
   }
   render(){
